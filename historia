@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dymp</title>
+    <link rel="shortcut icon" href="logo.png" type="imagem">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="história.html">História</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <br><br><br><br><br><br><br>
+
+
+
+
+
+
+ 
+
+
+
+<br><br>
+
+
+<div class="container-card">
+<div class="card">
+    <img src="logo.png" alt="fnf">
+    <div class="card__content">
+      <p class="card__title">Friday Night Funkin'Dymp</p>
+      <p class="card__description">Em uma noite de Central City, Yuri recem chegado na cidade, entra no mundo das batlhas de rima e encontra como primeiro adversário Pablo, um prodigio nas batalhas de rima, depois enfrenta os atuais campeões Bravo e Dan</p>
+      <p class="card__description">Mod feito na para ajudar a cordenação motora com a sicronização musical.<p>
+    </div>
+  </div>
+  
+  <br><br><br>
+
+  <div class="card">
+    <img src="yuri.png.jpeg" alt="yuri">
+    <div class="card__content">
+      <p class="card__title">Yuri</p>
+      <p class="card__description">Protagonista do jogo</p>
+      <p class="card__description">Música usada: "Gary vs David(The Synth Wars)"<p></p>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="card">
+    <img src="pablo.png.jpeg" alt="pab">
+    <div class="card__content">
+      <p class="card__title">Pablo</p>
+      <p class="card__description">Primeiro adversário do jogo</p>
+      <p class="card__description">Música usada: "Boate Azul 8bit Remix"<p></p>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="card">
+    <img src="Dani.png.jpeg" alt="dan">
+    <div class="card__content">
+      <p class="card__title">Dan</p>
+      <p class="card__description">Segundo adversário do jogo</p>
+      <p class="card__description">Música usada: "Trem das Onze 8bit Remix"<p></p>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="card">
+    <img src="Bravo.png.jpeg" alt="bravo">
+    <div class="card__content">
+      <p class="card__title">Bravo</p>
+      <p class="card__description">Antagonista do jogo</p>
+      <p class="card__description">Música usada: "GTA V theme 8bit Remix"<p></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <br><br><br><br><br><br><br>
+    
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Project Dymp</a></li>
+                        <li><a>Desenvolvimento de prototipo de MOD de Friday Night Funkin'</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Dymp</h4>
+                    <ul>
+                        <li><a href="#">Yuri Company</a></li>
+                        <li><a>Ajuda da desnvolvedora de sites web Yuri Company</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+<script src="script.js"></script>
+<script>
+  initSlider({
+      autoPlay: true,
+      startAtIndex: 0,
+      timeInterval: 2000
+  })
+</script>
+</body>
+</html>
